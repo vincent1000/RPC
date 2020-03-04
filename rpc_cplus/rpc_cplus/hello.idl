@@ -1,0 +1,9 @@
+[
+uuid(297404c1-e05d-4b54-8d84-f1244b91d968),
+version(1.0)
+]
+interface hello
+{
+	void Hello(
+		[in, string] const char* szOutput);
+}
